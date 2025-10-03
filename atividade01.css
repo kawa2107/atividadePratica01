@@ -3,9 +3,10 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+
 }
 
-.div-icon {
+.div-icon i {
     color: rgb(0, 0, 0);
     font-size: 40px;
 }
@@ -44,20 +45,127 @@
     width: 300px;
     height: 350px;
     box-shadow: 10px 10px 25px rgb(0, 0, 0);
- border-radius: 40px;
+    border-radius: 40px;
 }
 
 .section-01 p {
-  color: black;  
-font-size:30px ;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-margin-left: 30px;
-font-weight: 200;
-text-align: start;
+    color: black;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 30px;
+    font-weight: 200;
+    text-align: start;
 }
 
 span {
-    font-size: 35px;  
-    color: rgb(255, 255, 255); 
+    font-size: 35px;
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
+}
+
+.section-02 {
+    background-color: #909a92;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-icon {
+    color: black;
+    font-size: 45px;
+    margin-left: 20px;
+}
+
+.div-paragrafo {
+    color: black;
+    font: size 50px;
+    ;
+}
+
+.section-03 {
+    padding: 150px;
+    background-image: url(imagens/anel.jpg);
+    background-attachment: fixed;
+    background-position: center top;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.section-03 button {
+    padding: 10px;
+    width: 180px;
+    background-color: black;
+    color: wheat;
+    border: none;
+    box-shadow: 5px 5px 10px;
+}
+
+.div-section04{
+
+    width: 350px;
+    height: 350px;
+    background-color: black;
+    text-align: center;
+    gap: 10px;
+    color: #fdfffe;
+   padding:10px ;
+}
+
+.div-dog{
+background-repeat: no-repeat;
+background-size: cover;
+    background-position: center;
+}
+
+.div-titulo {
+    background-color:#000000 ;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-img {
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+ 
+.section-04 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    background-color:#909a92;
+    padding: 80px;
+    border: none;
+    box-shadow:5px 5px 10px rgb(70, 69, 69) ;
+}
+
+.section04 button {
+    border: white;
+    border: none;
+    box-shadow:5px 5px 10px  ;
+    color: white;
+    padding: 10px;
+    width: 150px; ;
+    color: rgb(0, 0, 0);
+}
+
+.div-section04 button{
+box-shadow:5px 5px 10px ;
+}
+
+footer {
+ background-color:#909a92;
+ padding: 50px;
+ color: #000;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ font: size 40px; ;
 }
