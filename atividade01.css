@@ -17,18 +17,20 @@
     color: black;
 }
 
-.div-list {
+.div-list ul{
     display: flex;
     gap: 15px;
 }
 
 .div-list ul li {
-    text-decoration: none;
+    list-style: none;
     color: black;
 }
 
 .div-list ul li a {
     text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
     color: black;
 }
 
@@ -85,10 +87,12 @@ span {
 }
 
 .section-03 {
-    padding: 150px;
-    background-image: url(imagens/anel.jpg);
+    padding: 200px;
+    background-image: url(imagens/joias\ \(1\).jpg);
     background-attachment: fixed;
     background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     justify-items: center;
